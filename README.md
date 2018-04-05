@@ -10,5 +10,8 @@
 * Lifetime member of Psi Chi Honors Society of Psychology
 * Strengths include: adaptability, willingness to learn, receiving feedback and organization.
 
+## *** Fun/Sad Fact ***
+* I was once in a ska band.
+
 ## *** Find me on GitHub to see my progress! ***
 **[Click here for James Kwiecien's GitHub](https://github.com/jimmykiwi/jimmykiwi)**
