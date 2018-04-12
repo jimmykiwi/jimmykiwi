@@ -1,0 +1,53 @@
+body { background-color: #2F4F4F;
+  font-family: 'Concert One' ;
+  border: 14px solid grey;
+  padding: 50px;
+  margin: 5px;
+  color: white;
+}
+
+
+div {
+background-color:#883843;
+}
+
+h1 {
+  color: white;
+  font-weight:500;
+  font-size: 54px;
+
+}
+
+p {
+  font-family:
+  font-weight:400;
+  font-size:25px;
+
+}
+
+a {
+  font-size: 20px;
+  color: white;
+}
+
+.img-circle{border-radius:50%;
+margin-right: auto;}
+
+.navigation > ul > li {
+  position: relative; // required for absolute positioning
+  display: inline;
+  list-style: none;
+}
+
+.navigation .dropdown {
+  position: absolute; // tracks nearest relatively-positioned ancestor
+  top: 1em; // positions according to the ancestor
+  right: 0;
+  display: none;
+
+.navigation a:hover + .dropdown {
+  display: block;
+}
+.dropdown:hover {
+display: block;
+}
