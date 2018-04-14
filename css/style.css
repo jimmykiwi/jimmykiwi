@@ -1,10 +1,18 @@
+
+
 body {
-  font-family: 'Concert One' ;
+  font-family: ;
   border: 14px solid grey;
-  padding: 50px;
-  margin: 5px;
+  padding: 30px;
+  margin: 10px;
   color: black;
+  box-sizing: content-box;
 }
+
+.img2 {
+  height: 40px;
+}
+
 
 
 div {
@@ -12,27 +20,42 @@ background-color:
 }
 
 h1 {
-  font-family: 'Concert One'
+  text-align: center;
+  font-family: 'Arapey', serif;
   color: black;
-  font-weight:500;
+  font-weight:bold;
   font-size: 54px;
 
 }
 
 p {
-  font-family:
-  font-weight:400;
+  font-family:'Julius Sans One', sans-serif;
+  font-weight:600;
   font-size:25px;
 
 }
 
-a {
-  font-size: 20px;
-  color: black;
+h3 {
+  font-family:'Julius Sans One', sans-serif;
 }
 
-.img-circle{border-radius:50%;
-margin-right: auto;}
+li{
+  font-family:'Julius Sans One', sans-serif;
+}
+
+a {
+  font-family:'Julius Sans One', sans-serif;
+  font-size: 20px;
+  color: black;
+  text-align: center;
+}
+
+.img-circle{
+  border-radius:50%;
+margin: 0 auto;
+width: 300px;
+display: block;
+}
 
 .navigation > ul > li {
   position: relative; // required for absolute positioning
@@ -46,7 +69,7 @@ margin-right: auto;}
   right: 0;
   display: none;
 
-.navigation a:hover + .dropdown {
+.navigation a:hover + .dropdown:hover {
   display: block;
 }
 .dropdown:hover {
