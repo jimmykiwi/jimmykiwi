@@ -1,6 +1,12 @@
 
 
 body {
+
+}
+
+
+#wrapper {
+  background-color:;
   font-family: ;
   border: 14px solid grey;
   padding: 30px;
@@ -8,6 +14,8 @@ body {
   color: black;
   box-sizing: content-box;
 }
+
+
 
 .img2 {
   height: 40px;
@@ -65,12 +73,14 @@ display: block;
 
 .navigation .dropdown {
   position: absolute; // tracks nearest relatively-positioned ancestor
-  top: 1em; // positions according to the ancestor
-  right: 0;
+  top: 11em; // positions according to the ancestor
   display: none;
+}
 
-.navigation a:hover + .dropdown:hover {
+.navigation a:hover + .dropdown {
   display: block;
+  top: 1em; // positions according to the ancestor
+
 }
 .dropdown:hover {
 display: block;
