@@ -9,4 +9,5 @@ if (name === ""){
 }
 checkName();
 
-alert ('Hello, ' + name);
+var output = document.querySelector('#greeting');
+output.innerHTML = "<p>Thanks for visiting, " + name + ".</p>";

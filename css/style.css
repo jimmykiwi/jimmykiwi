@@ -13,18 +13,19 @@ body {
   margin: 10px;
   color: black;
   box-sizing: content-box;
+
 }
 
 
 
 .img2 {
   height: 40px;
+
 }
-
-
 
 div {
 background-color:
+
 }
 
 h1 {
@@ -45,10 +46,12 @@ p {
 
 h3 {
   font-family:'Julius Sans One', sans-serif;
+
 }
 
 li{
   font-family:'Julius Sans One', sans-serif;
+
 }
 
 a {
@@ -75,13 +78,18 @@ display: block;
   position: absolute; // tracks nearest relatively-positioned ancestor
   top: 11em; // positions according to the ancestor
   display: none;
+
 }
 
 .navigation a:hover + .dropdown {
   display: block;
   top: 1em; // positions according to the ancestor
-
 }
+
 .dropdown:hover {
 display: block;
+}
+
+#greeter{
+  background-color: :gray;
 }
