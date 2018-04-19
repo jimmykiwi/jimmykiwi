@@ -10,4 +10,4 @@ if (name === ""){
 checkName();
 
 var output = document.querySelector('#greeting');
-output.innerHTML = "<p>Thanks for visiting, " + name + ".</p>";
+output.innerHTML = "<p>Stop judging my webpage, " + name + ".</p>";

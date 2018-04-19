@@ -51,6 +51,7 @@ h3 {
 
 li{
   font-family:'Julius Sans One', sans-serif;
+  list-style:none;
 
 }
 
@@ -70,7 +71,7 @@ display: block;
 
 .navigation > ul > li {
   position: relative; // required for absolute positioning
-  display: inline;
+  display: inline-block;
   list-style: none;
 }
 
@@ -78,18 +79,19 @@ display: block;
   position: absolute; // tracks nearest relatively-positioned ancestor
   top: 11em; // positions according to the ancestor
   display: none;
-
 }
 
 .navigation a:hover + .dropdown {
   display: block;
-  top: 1em; // positions according to the ancestor
+  top: 2em; // positions according to the ancestor
+  left:
+  display: block;
 }
 
 .dropdown:hover {
 display: block;
 }
 
-#greeter{
+#greeting{
   background-color: :gray;
 }
