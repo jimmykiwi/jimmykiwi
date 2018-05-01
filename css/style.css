@@ -18,6 +18,8 @@ body {
 
 
 
+
+
 .img2 {
   height: 40px;
 
@@ -61,6 +63,11 @@ a {
   color: black;
   text-align: center;
 }
+
+.blog p, h1, a{
+  font-family: 'Crimson Text', serif;
+}
+
 
 .img-circle{
   border-radius:50%;
