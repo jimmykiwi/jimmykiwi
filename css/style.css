@@ -1,13 +1,14 @@
 
 
-body {
+body { font-family: 'Julius Sans One', sans-serif;
 
 }
 
 
 #wrapper {
-  background-color:;
-  font-family: ;
+  background-color:#18494;
+  color: red;
+  font-family: 'Julius Sans One', sans-serif; ;
   border: 14px solid grey;
   padding: 30px;
   margin: 10px;
@@ -21,7 +22,7 @@ body {
 
 
 .img2 {
-  height: 40px;
+  height: 60px;
 
 }
 
@@ -32,7 +33,7 @@ background-color:
 
 h1 {
   text-align: center;
-  font-family: 'Arapey', serif;
+  font-family: 'Julius Sans One', sans-serif;
   color: black;
   font-weight:bold;
   font-size: 54px;
@@ -53,6 +54,7 @@ h3 {
 
 li{
   font-family:'Julius Sans One', sans-serif;
+  font-weight: 10px;
   list-style:none;
 
 }
